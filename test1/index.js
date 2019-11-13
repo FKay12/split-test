@@ -9,42 +9,66 @@ var json = {
         {
             questions: [
                 {
-                    type: "radiogroup",
-                    name: "civilwar",
-                    title: "When was the Civil War?",
-                    choices: [
-                        "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
-                    ],
-                    correctAnswer: "1850-1900"
-                }
+                    "type": "text",
+                    "name": "Can you verify the job candidate’s employment, job title, pay, and responsibilities? Why did they leave that job?"
+                },
+                {
+                    "type": "text",
+                    "name": "How do you know the job candidate?"
+                },
             ]
         }, {
             questions: [
                 {
-                    type: "radiogroup",
-                    name: "libertyordeath",
-                    title: "Who said 'Give me liberty or give me death?'",
-                    choicesOrder: "random",
-                    choices: [
-                        "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
-                    ],
-                    correctAnswer: "Patrick Henry"
-                }
+                    "type": "text",
+                    "title": "What makes the candidate a good fit for this job?"
+                },
+                {
+                    "type": "text",
+                    "name": "question2",
+                    "title": "If you had the opportunity, would you re-hire this job candidate? Why?"
+                },
             ]
         }, {
             questions: [
                 {
-                    type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What is the Magna Carta?",
-                    choicesOrder: "random",
-                    choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
-                    correctAnswer: "The foundation of the British parliamentary system"
-                }
+                    "type": "text",
+                    "name": "question3",
+                    "title": "What are the candidate’s biggest strengths and weaknesses?"
+                },
+                {
+                    "type": "text",
+                    "name": "question4",
+                    "title": "Did the candidate get along with their co-workers and management?"
+                },
             ]
-        }
+        }, {
+            questions: [
+                {
+                    "type": "text",
+                    "name": "question5",
+                    "title": "Tell me what it’s like to work with the job candidate."
+                },
+                {
+                    "type": "text",
+                    "name": "question6",
+                    "title": "What advice can you give me to successfully manage the job candidate?"
+                },
+            ]
+        }, {
+            questions: [
+                {
+                    "type": "text",
+                    "name": "question7",
+                    "title": "What else do I need to know about the job candidate that I didn’t already ask?"
+                },
+                {
+                    "type": "text",
+                    "name": "question8",
+                    "title": "Who else should I speak to about the candidate that can provide different insight?"
+                },
+            ]
+        }, 
     ],
     completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
 };
