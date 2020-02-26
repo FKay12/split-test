@@ -4,7 +4,7 @@ Survey
     .applyTheme("default");
 
 var json = {
-    title: "Job Questionnaire 2",
+    title: "Job Questionnaire",
     pages: [{
         questions: [
             {
