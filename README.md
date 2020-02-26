@@ -1,4 +1,1 @@
-# <a href="https://github.com/rhildred/split-test" target="_blank">split-test</a>
-
-An engine for splitting the traffic between sites.
-
+To build project go to: https://thawing-falls-57390.herokuapp.com/
